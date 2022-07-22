@@ -1,1 +1,1 @@
-console.log("Ebuka is a goat");
+console.log("May we begin?");
