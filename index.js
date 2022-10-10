@@ -18,3 +18,20 @@ function findShort(s) {
 
 console.log(findShort("bitcoin take over the world maybe who knows perhaps"));
 
+//Reduce
+function narcissistic(value) {
+  if (value <= 0) return false
+  let str = `${value}`
+  return value === [...str].reduce((acc,curr) => {
+    return acc + (+ curr) ** str.length
+  },0)
+}
+
+console.log(narcissistic(7))
+console.log(narcissistic(371))
+
+//Question: https://www.codewars.com/kata/554ca54ffa7d91b236000023/train/javascript
+
+function deleteNth(arr,n){
+  
+}
